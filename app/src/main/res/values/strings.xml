@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nayaabb</string>
+    <string-array name="user_options">
+        <item>Cart</item>
+        <item>Orders</item>
+        <item>About</item>
+    </string-array>
+    <string name="owner">Teesta Chattopadhyay is a 1st year B.Tech student at Techno Main Salt Lake. She is a very talented artist and creative thinker. Her love for art has inspired her to create beautiful resin products at minimum price and share the happiness with others and everyone.</string>
+</resources>

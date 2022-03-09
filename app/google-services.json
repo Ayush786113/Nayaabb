@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "6570591011",
+    "project_id": "resinsforyou-a7c8b",
+    "storage_bucket": "resinsforyou-a7c8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6570591011:android:3e40e43e6728cfacbb4296",
+        "android_client_info": {
+          "package_name": "com.celestialinterface.resinsforyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6570591011-hihenbhopmgova2lkvft4umufh0bdklj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBt81lcaNynVL0g5Y8syIEMVYyNlDde4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6570591011-hihenbhopmgova2lkvft4umufh0bdklj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

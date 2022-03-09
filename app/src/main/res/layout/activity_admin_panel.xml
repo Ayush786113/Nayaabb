@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Panel">
+
+    <ImageView
+        android:id="@+id/resindp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"/>
+
+    <EditText
+        android:id="@+id/resintitle_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resindp"
+        android:hint="Title"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/resinprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resintitle_admin"
+        android:hint="Price"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/uploadbtn_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_below="@id/resinprice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/updatebtn_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uploadbtn_admin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="Update" />
+
+
+</RelativeLayout>
